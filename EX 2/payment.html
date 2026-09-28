@@ -1,0 +1,120 @@
+<html>
+<head>
+<title>Syed Elegance - Payment</title>
+<style>
+body{
+    background-color:#F8FFF8;
+    font-family:Arial, sans-serif;
+}
+#title{
+    text-align:center;
+    color:#8B0000;
+    background-color:#FFF0F5;
+    padding:12px;
+    border:1px solid #D8BFD8;
+}
+.heading{
+    text-align:center;
+    color:#4B0082;
+}
+.payment-box{
+    width:500px;
+    margin:auto;
+    padding:20px;
+    background-color:white;
+    border:1px solid lightgray;
+}
+.footer{
+    text-align:center;
+    color:#555555;
+    margin-top:20px;
+    padding:10px;
+}
+table{
+    margin:auto;
+}
+td{
+    padding:8px;
+}
+input[name="customer"],
+input[name="card"],
+input[name="expiry"],
+input[name="cvv"]{
+    width:250px;
+    padding:6px;
+    border:1px solid lightgray;
+}
+input[name="pay"]{
+    background-color:#90EE90;
+    border:1px solid green;
+    padding:8px 15px;
+    font-weight:bold;
+}
+</style>
+</head>
+<body>
+<h1 id="title">SYED ELEGANCE</h1>
+<hr>
+<h2 class="heading">Payment Page</h2>
+<div class="payment-box">
+<form action="success.html">
+<table>
+<tr>
+<td>Customer Name</td>
+<td>
+<input type="text" name="customer" required>
+</td>
+</tr>
+<tr>
+<td>Card Number</td>
+<td>
+<input type="text" name="card" maxlength="16" required>
+</td>
+</tr>
+<tr>
+<td>Expiry Date</td>
+<td>
+<input type="month" name="expiry" required>
+</td>
+</tr>
+<tr>
+<td>CVV</td>
+<td>
+<input type="password" name="cvv" maxlength="3" required>
+</td>
+</tr>
+<tr>
+<td>Payment Method</td>
+<td>
+<input type="radio" name="method">Credit Card
+<input type="radio" name="method">Debit Card
+<input type="radio" name="method">UPI
+</td>
+</tr>
+<tr>
+<td>Delivery Address</td>
+<td>
+<textarea rows="4" cols="32"></textarea>
+</td>
+</tr>
+<tr>
+<td colspan="2" align="center">
+<input type="submit" name="pay" value="Pay Now">
+<input type="reset" value="Clear">
+</td>
+</tr>
+</table>
+</form>
+</div>
+<hr>
+<p class="footer">
+<b>Thank You for Shopping with Syed Elegance!</b>
+<br><br>
+Your order has been placed successfully.
+<br><br>
+Visit Again!
+<br><br>
+&copy; 2026 Syed Elegance. All Rights Reserved.
+</p>
+</body>
+</html>

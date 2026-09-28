@@ -1,0 +1,88 @@
+body{
+background-color:#F0FFF0;
+font-family:Arial;
+}
+#title{
+text-align:center;
+color:darkred;
+border:2px solid darkred;
+padding:15px;
+margin:15px;
+background-color:#FFE4E1;
+}
+.heading{
+text-align:center;
+color:navy;
+border:1px solid blue;
+padding:10px;
+margin:15px;
+background-color:#E6E6FA;
+}
+.content{
+border:1px solid green;
+padding:20px;
+margin:20px;
+background-color:white;
+text-align:justify;
+line-height:25px;
+}
+.nav{
+width:100%;
+background-color:#FFE4B5;
+border-collapse:collapse;
+}
+.nav td{
+padding:15px;
+text-align:center;
+}
+.nav a{
+text-decoration:none;
+font-weight:bold;
+color:blue;
+}
+.video{
+border:2px solid brown;
+padding:10px;
+margin:20px auto;
+width:720px;
+text-align:center;
+background:white;
+}
+.offer{
+margin:auto;
+border-collapse:collapse;
+}
+.offer th{
+background:pink;
+}
+.offer td,
+.offer th{
+border:1px solid black;
+padding:10px;
+text-align:center;
+}
+.category{
+margin:auto;
+}
+.category td{
+padding:20px;
+text-align:center;
+}
+.image{
+width:180px;
+height:200px;
+padding:5px;
+margin:10px;
+}
+.footer{
+text-align:center;
+background:#FFE4B5;
+padding:15px;
+margin-top:20px;
+}
+input[name="search"]{
+background-color:lightyellow;
+border:2px solid green;
+padding:8px;
+width:250px;
+}
